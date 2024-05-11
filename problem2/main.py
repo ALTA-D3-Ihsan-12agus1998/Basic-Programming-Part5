@@ -1,7 +1,7 @@
-def pow(x, n):
-    return 0
+def pow(x, n) :
+    return x ** n
 
-if __name__ == '__main__':
+if __name__ == '__main__' :
     print(pow(2, 3)) # 8
     print(pow(7, 2)) # 49
     print(pow(10, 5)) # 100000
